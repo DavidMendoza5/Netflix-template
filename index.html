@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <meta name="description" content="Platform where you can watch the best movies and series">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="access_button_container">
+            <a href="#" class="btn_login btn">Iniciar sesión</a>
+        </div>
+        <figure class="netflix_logo">
+            <img src="./images/logo_netflix.png" alt="Logo Netflix">
+        </figure>
+        <div class="info_container">
+            <h1>Tu próxima historia, ahora</h1>
+            <h2>Disfruta Donde Quieras, Cancela Donde Quieras</h2>
+            <br>
+            <br>
+            <a href="#" class="btn_join_now btn">
+                Unirte ahora 
+                <img class="img_arrow" src="./images/Icon feather-arrow-right-circle.svg" alt="Flecha">
+            </a>
+        </div>
+        <nav class="options_menu">
+            <div class="nav_option">
+                <figure>
+                    <img class="option_img" src="./images/ban-solid.svg" alt="Sin compromisos">
+                </figure>
+                <a href="#home_info" class="nav_option_btn" onclick="getDevices('home_info', 'hr_home')">
+                    Sin compromisos, <br>
+                    cancela cuando quieras.</a>
+                <hr class="option_menu_selected" id="hr_home">
+            </div>
+            <div class="nav_option">
+                <figure>
+                    <img class="option_img" src="./images/icono_dispositivos.svg" alt="Dispositivos">
+                </figure>
+                <a href="#devices_info" class="nav_option_btn" onclick="getDevices('devices_info', 'hr_devices')">
+                    Ve desde donde quieras.</a>
+                <hr class="option_menu_selected" id="hr_devices">
+            </div>
+            <div class="nav_option">
+                <figure>
+                    <img class="option_img" src="./images/hand-holding-usd-solid.svg" alt="Elige tu precio">
+                </figure>
+                <a href="#prices_info" class="nav_option_btn" onclick="getDevices('prices_info', 'hr_prices')">
+                    Elige tu precio.</a>
+                <hr class="option_menu_selected" id="hr_prices">
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="twitter_section">
+        <figure>
+            <img class="twitter_img" src="./images/TWITTER.png" alt="Twitter">
+        </figure>
+    </section>
+
+
+    <section class="main_info_container_home" id="home_info">
+        <div class="home">
+            <p class="info_paragraph">Si Piensas Que Netflix No Es Lo 
+                <br> Tuyo, No Hay Problema. Sin 
+                <br> Compromisos. Cancela Online 
+                <br> Cuando Quieras.
+            </p>
+            <br>
+            <br>
+            <a href="#" class="btn_join_now btn">
+                Unirte ahora 
+                <img class="img_arrow" src="./images/Icon feather-arrow-right-circle.svg" alt="Flecha">
+            </a>
+        </div>
+        <figure>
+            <img src="./images/icono_cancelar_suscripcion.svg" alt="Cancel suscription">
+        </figure>
+    </section>
+
+    <section class="main_info_container_devices" id="devices_info">
+        <div class="devices_description">
+            <p class="info_paragraph">Ve Películas Y Programas De TV Cuando Y
+                <br> Donde Quieras, Personalizados Para Ti.
+            </p>
+            <a href="#" class="btn_join_now btn">
+                Unirte ahora 
+                <img class="img_arrow" src="./images/Icon feather-arrow-right-circle.svg" alt="Flecha">
+            </a>
+        </div>
+        <div class="devices_description">
+            <figure class="devices_info_container">
+                <img src="./images/icono3.png" alt="web">
+                <p class="info_paragraph">Ve Netflix en tu TV</p>
+                <p class="info_paragraph devices_info_description">Smart TV, PlayStation, Xbox,
+                    <br> Chromecast, Apple TV, reproductores
+                    <br> de Blu-ray y más.</p>
+            </figure>
+            <figure class="devices_info_container">
+                <img src="./images/icono4.png" alt="móvil">
+                <p class="info_paragraph">Disfruta Al Instante O Descarga
+                    <br> Videos Para Más Tarde</p>
+                <p class="info_paragraph devices_info_description">Disponible en tu teléfono o tablet,
+                    <br> vayas donde vayas.</p>
+            </figure>
+            <figure class="devices_info_container">
+                <img src="./images/icono1.png" alt="laptop">
+                <p class="info_paragraph">Usa cualquier computadora</p>
+                <p class="info_paragraph devices_info_description">Ve directamente en Netflix.com.</p>
+            </figure>
+        </div>
+    </section>
+
+    <section class="main_info_container_devices" id="prices_info">
+        <div class="home">
+        <figure>
+            <img src="./images/tabla.png" alt="Precios">
+        </figure>
+    </section>
+
+
+    <section class="space"></section>
+
+
+    <footer>
+        <h2>¿Preguntas? Llama al
+            <br> 01800-265-0161
+        </h2>
+        <section class="footer_options">
+            <div>
+                <p>Preguntas frecuentes</p>
+                <p>Relaciones con inversionistas</p>
+                <p>Formas de ver</p>
+                <p>Información corporativa</p>
+                <p>Originales de Netflix</p>
+            </div>
+            <div>
+                <p>Preguntas frecuentes</p>
+                <p>Relaciones con inversionistas</p>
+                <p>Formas de ver</p>
+                <p>Información corporativa</p>
+                <p>Originales de Netflix</p>
+            </div>
+            <div>
+                <p>Preguntas frecuentes</p>
+                <p>Relaciones con inversionistas</p>
+                <p>Formas de ver</p>
+                <p>Información corporativa</p>
+                <p>Originales de Netflix</p>
+            </div>
+        </section>
+        <section class="netflix_region">
+            <div class="footer_btn btn">
+                <a href="#">
+                    <img class="img_arrow" src="./images/globe-solid.svg" alt="World">
+                    Español
+                </a>
+            </div>
+            <p>Netflix Mexico</p>
+        </section>
+    </footer>
+</body>
+</html>

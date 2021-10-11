@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1088" height="623" viewBox="0 0 1088 623">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 2000 1125">
+      <image width="2000" height="1125" xlink:href="FondoNetflix-image.jpg"/>
+    </pattern>
+  </defs>
+  <g id="FondoNetflix" transform="translate(-132 17)">
+    <rect id="fondo_netflix" width="1088" height="612.5" transform="translate(132 -17)" fill="url(#pattern)"/>
+    <rect id="filtro_negro" data-name="filtro negro" width="1088" height="613" transform="translate(132 -7)" opacity="0.5"/>
+  </g>
+</svg>
